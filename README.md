@@ -1,5 +1,5 @@
 # 🖥️⚙️ Computer Vision Engineering program for the detection of the edges of an image by Sobel operators
-The program waits for an image represented in memory (width, height, RGB pixels) and returns a binary card (0/255) indicating the edges. The code includes: grayscale conversion, convolution, gradient calculation, normalization and threshold. A sample of use and a minimal dune file are provided.
+The program waits for an image represented in memory (width, height, RGB pixels) and returns a binary card (0/255) indicating the edges. The code includes: **grayscale conversion, convolution, gradient calculation, normalization and threshold**. A sample of use and a minimal dune file are provided.
 
 ## To use it with others format
 
