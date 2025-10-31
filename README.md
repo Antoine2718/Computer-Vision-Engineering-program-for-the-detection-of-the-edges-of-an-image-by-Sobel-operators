@@ -5,7 +5,7 @@ The program waits for an image represented in memory (width, height, RGB pixels)
 
 The module above does not make an image IO. To use it with PNG/JPEG files you can:
 
-> Use the ocaml-images library (package images) or ocaml-magick to load/save, then convert the pixels to the format expected by the module.
+> Use the ocaml-images library (package images) or ocaml-magick to load/save, then convert the pixels to the format expected by the module. (Recommended)
 
 > Or write a small adapter that reads via Stb_image bindings or other.
 
