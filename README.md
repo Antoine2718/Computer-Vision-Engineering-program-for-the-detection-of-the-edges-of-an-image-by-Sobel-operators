@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
 [![OCaml](https://img.shields.io/badge/OCaml-orange?style=for-the-badge&logo=ocaml&logoColor=white)](https://ocaml.org)
-[![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![Python](https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 
 The program waits for an image represented in memory (width, height, RGB pixels) and returns a binary card (0/255) indicating the edges. The code includes: **grayscale conversion, convolution, gradient calculation, normalization and threshold**. A sample of use and a minimal dune file are provided.
 
