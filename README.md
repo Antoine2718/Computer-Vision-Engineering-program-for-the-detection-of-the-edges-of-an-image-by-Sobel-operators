@@ -12,7 +12,12 @@ The module above does not make an image IO. To use it with PNG/JPEG files you ca
 
 > Or write a small adapter that reads via Stb_image bindings or other.
 
-## An exemple of use 
+## Exemple in subprocess
+```
+sobel_filter_ocaml("image_in.png", "image_out.png")
+```
+
+## An exemple of use without subprocess (⚠️Not recommended)
 
 ```
 open Printf
